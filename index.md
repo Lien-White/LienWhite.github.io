@@ -162,6 +162,7 @@
                 <li class="popover-item">
                   <a class="popover-link" href="#dsoc">DSOC</a>
                  </li> 
+            <li class="navbar-item">     
             <a class="navbar-link" href="#" data-popover="#lumNavPopover">Luminosity</a>
             <div id="lumNavPopover" class="popover">
               <ul class="popover-list">

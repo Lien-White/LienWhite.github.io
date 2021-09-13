@@ -162,7 +162,7 @@
                 <li class="popover-item">
                   <a class="popover-link" href="#dsoc">DSOC</a>
                  </li> 
-            <li class="navbar-item">     
+          <li class="navbar-item">     
             <a class="navbar-link" href="#" data-popover="#lumNavPopover">Luminosity</a>
             <div id="lumNavPopover" class="popover">
               <ul class="popover-list">
@@ -172,9 +172,6 @@
                 <li class="popover-item">
                   <a class="popover-link" href="#smart">Smart Cities</a>
                 </li>
-              </ul>
-            </div>
-          </li>
           <li class="navbar-item"><a class="navbar-link" href="#passion">Other Passions</a></li>
           <li class="navbar-item">
             <a class="navbar-link" href="#" data-popover="#schoolNavPopover">School Projects</a>

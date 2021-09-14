@@ -95,6 +95,7 @@
               </ul>
             </div>
           </li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav> 
@@ -109,7 +110,7 @@
     </div>
     
     <div class="docs-section" id="aboutme">
-      <h6 class="docs-header">Hello! I'm Lien</h6>
+      <h6 class="docs-header">Hi! I'm Lien</h6>
       <p>I'm a recent robotics enigneering graduate from Arizona State University who is passionate about all things hardware, electronics, and communications! On this webpage you'll see everything that has led me to conclude my passions with electrical engineering, and all the fun work I'm doing currently.</p> 
       <p>Feel free to navigate my page!</p>
     </div>
@@ -118,6 +119,36 @@
       <h6 class="docs-header">CAN Sarlacc</h6>
       <p>My primary project with First Mode is the CAN Saralcc: a electromechanical adapter meant to support 32 CAN busses in one PC for harware-in-the-loop testing.</p>
       <p>Tell me your thoughts!</p>
+    </div>
+
+    <div class="docs-section" id="contact">
+      <h6 class="docs-header">Contact</h6>
+      <!-- The above form looks like this -->
+      <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">lienwhite7@gmail.com</label>
+            <input class="u-full-width" type="email" placeholder="lienwhite7@gmail.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for Contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Project Collaboration</option>
+              <option value="Option 2">Interview Request</option>
+              <option value="Option 3">General Questions</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Lien …" id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit">
+      </form>
+      <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+      <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
     </div>
 
 <!-- End Document

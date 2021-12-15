@@ -228,14 +228,14 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 499px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: contents;
+  display: none;
 }
 
 /* Next & previous buttons */

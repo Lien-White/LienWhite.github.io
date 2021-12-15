@@ -89,7 +89,8 @@ $(document).ready(function() {
   }
 
   init();
-
+  
+  //SLIDESHOW FUNCTIONALITY
   var slideIndex = 1;
   showSlides(slideIndex);
 

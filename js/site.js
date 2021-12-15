@@ -86,9 +86,10 @@ $(document).ready(function() {
       var newContent = escapeHtml($(this).html())
       $(this).html(newContent)
     })
+
   }
 
-  init();
+  //init();
   
   //SLIDESHOW FUNCTIONALITY
   var slideIndex = 1;
@@ -119,4 +120,6 @@ $(document).ready(function() {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
+
+  init();
 });

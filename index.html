@@ -126,6 +126,49 @@
 
     <div class="docs-section" id="sarlacc">
       <h6 class="docs-header">CAN Sarlacc</h6>
+      
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="attachments/CAN_Sarlacc_V1.png" style="width:100%">
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="attachments/Sarlacc_PCB_2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="attachments/Sarlacc_PCB_1.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="attachments/Sarlacc_Oct.JPG" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
       <div class="value-props row">
         <div class="six columns value-prop">
           <img class="value-img" src="attachments/CAN_Sarlacc_V1.png" width="300" height="450">
@@ -144,6 +187,7 @@
           Octopus Harness In Progress
         </div>
       </div>
+
       <p>My primary project with First Mode is the CAN Saralcc: a electromechanical adapter meant to support 32 CAN busses in one PC for harware-in-the-loop testing. Across the span of two months, I was able to design a PCB in Altium that would take the company's 16 CAN JST connections, transition them through a DD-50 connector, and back out into 16 DE-9 connectors for hardware-in-the-loop testing purpose. I spent the second month primarly focusing on software bringup in Linex on a brand new PC, writing code in Python that would allow the company to test the sending/reciveing of random CAN traces (.trc) files.</p>
       <p>While this project seems like a simple electro-mechanical adapter, the process of building this system came with many lessons to learn:</p>
       <ol>

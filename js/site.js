@@ -87,10 +87,7 @@ $(document).ready(function() {
       $(this).html(newContent)
     })
   }
-
-
-  init();
-
+  
   var slideIndex = 1;
   showSlides(slideIndex);
   
@@ -120,4 +117,5 @@ $(document).ready(function() {
     dots[slideIndex-1].className += " active";
   }
 
+  init();
 });

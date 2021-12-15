@@ -223,6 +223,7 @@
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 
+}
 
 * {box-sizing:border-box}
 
@@ -317,6 +318,4 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
 }

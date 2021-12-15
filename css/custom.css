@@ -235,7 +235,7 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: -moz-box;
+  display: none;
 }
 
 /* Next & previous buttons */

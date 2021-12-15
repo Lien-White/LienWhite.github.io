@@ -89,8 +89,9 @@ $(document).ready(function() {
 
   }
 
-  //init();
-  
+  init();
+});
+
   //SLIDESHOW FUNCTIONALITY
   var slideIndex = 1;
   showSlides(slideIndex);
@@ -120,6 +121,3 @@ $(document).ready(function() {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
-
-  init();
-});

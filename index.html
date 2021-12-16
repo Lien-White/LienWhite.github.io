@@ -62,7 +62,7 @@
               </ul>
             </div>
           </li>
-          <li class="navbar-item"><a class="navbar-link" href="#cap">Capstone</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#capstone">Capstone</a></li>
           <li class="navbar-item">
             <a class="navbar-link" href="#" data-popover="#lumNavPopover">Luminosity</a>
             <div id="lumNavPopover" class="popover">
@@ -124,6 +124,7 @@
       <p>Thank you for scrolling through my website, I hope you enjoy it. Forks Up and Fight On!</p>
     </div>
 
+    <!--CAN SARLACC PAGE-->
     <div class="docs-section" id="sarlacc">
       <h6 class="docs-header">CAN Sarlacc</h6>
       
@@ -131,25 +132,25 @@
       <div class="slideshow-container">
 
         <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
+        <div class="mySlides1 fade">
           <div class="numbertext">1 / 4</div>
           <img src="attachments/CAN_Sarlacc_V1.png" style="width:100%">
           <div class="text">Caption One</div>
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides1 fade">
           <div class="numbertext">2 / 4</div>
           <img src="attachments/Sarlacc_PCB_2.jpg" style="width:100%">
           <div class="text">Caption Two</div>
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides1 fade">
           <div class="numbertext">3 / 4</div>
           <img src="attachments/Sarlacc_PCB_1.jpg" style="width:100%">
           <div class="text">Caption Three</div>
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides1 fade">
           <div class="numbertext">4 / 4</div>
           <img src="attachments/Sarlacc_Oct.JPG" style="width:100%">
           <div class="text">Caption Four</div>
@@ -169,7 +170,7 @@
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
 
-      
+
       <!-- Use to import a photo !!! -->
 
       <!-- <div class="value-props row">
@@ -217,6 +218,80 @@
       </ol>
       
     </div>
+
+    <!--CAPSTONE PAGE-->
+    <div class="docs-section" id="capstone">
+      <h6 class="docs-header">Capstone</h6>
+      
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides2 fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="attachments/email.png" style="width:100%">
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides2 fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="attachments/phone.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides2 fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="attachments/resume.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides2 fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="attachments/space.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      
+      <p>With a group of fellow robotics students, my team and I created a space grade communications box. </p>
+      <p>While this project seems like a simple electro-mechanical adapter, the process of building this system came with many lessons to learn:</p>
+      <ol>
+        <li>
+          While I have strong hardware experience in Cadance, Altium was not an easy program for me to transition to. </li>
+          <ul>
+            <li>It took me a week or two to create the first revision of my PCB when I think it should have only taken me a few days, but because of I had to overcome a huge learning curve with Altium's shortcut keys I found myself pushing my deadline often. My expeirence here taught me to always account for a few extra days when setting a deadline for myself and to always ask for help and be patient when learning a new modeling program.</li>
+          </ul>
+        </li>
+        <li>
+          On the mechanical side of things, harnessing is SUPER important.
+          <ul>
+            <li>I had to build my own DD-50 to DE-9 CAN octopus harness, and if I messed up the pin layout on my PCB then I could have potentially messed up the pin layout on my harness design as well. I originally had mislabeled the order of the pins for the DD-50 on my PCB, and I was luckily enough to have caught this mistake before building my harness. If I had not done so, I most likley would have connected CAN High to a CAN Low connection or Ground by accident.</li>
+            <li>I also had a length limit for the wires of my octopus harness, because it was possible for some of the CAN connections coming through my board would be a "stub" or a conneciton limited to a physical wire length of 0.3 meters or less. Leanring to design my harness and measuring the length of my wires with the connectors and PCB in mind was something I had never considered before this project, and now I can say I'm an expert in building stub approved harnesses.</li>
+          </ul>
+        </li>
+        <li>
+          In relationship to software, I learned so much about starting up a new PC in Linex and how to remotely run Python throguh SSH keys and GitHub.
+          <ul>
+            <li>Software isn't my most developed skill, and so using GitHub was and is still something I am getting used to. However, with this project I was taught how to set up my own SSH keys in Paegent/PuTTy and link such keys in GitHub.</li>
+            <li>Because I had to remotely run code in my new PC, I learned quickly how to run code in Visual Studios, update my code through GitHub desktop, and then test run my code on the system by watching outputs of my program in PuTTY.</li>
+          </ul>
+        </li>
+      </ol>
+    
+    </div>
+
 
     <div class="docs-section" id="contact">
       <h6 class="docs-header">Contact</h6>
